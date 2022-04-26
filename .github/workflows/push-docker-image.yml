@@ -11,8 +11,13 @@ jobs:
       - uses: actions/setup-python@v3
         with:
           python-version: "3.8.12"
-      - name: test
-        run: python3 -m unittest test.py
+      - name: install coverage python library
+        run:
+          - pip install coverage
+      - name: test and coverage report
+        run:
+          - coverage run -m unittest test.py
+          - coverage report -m
 
   deploy:
     runs-on: ubuntu-latest
