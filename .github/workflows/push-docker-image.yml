@@ -13,12 +13,12 @@ jobs:
           python-version: "3.8.12"
           cache: "pip"
       - name: install coverage python library
-        run:
-          - pip install coverage
+        run: |
+          pip install coverage
       - name: test and coverage report
-        run:
-          - coverage run -m unittest test.py
-          - coverage report -m
+        run: |
+          coverage run -m unittest test.py
+          coverage report -m
 
   deploy:
     runs-on: ubuntu-latest
