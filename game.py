@@ -38,6 +38,7 @@ class Game(object):
         return False
 
     def playGame(self):
+        print("GAME CHANGED")
         while True:
             try:
                 print(f"{player1.name} Wallet: {player1.wallet}")
