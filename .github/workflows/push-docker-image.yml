@@ -1,7 +1,5 @@
 name: Push Docker Image
 
-name: Push Docker Image
-
 on:
   - push
 
