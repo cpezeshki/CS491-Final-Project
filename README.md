@@ -1,4 +1,5 @@
 # CS491-Final-Project
+Author: Charles Pezeshki
 # Betting Connect 4
 
 Betting Connect 4 is a game which creates two players "Player 1" and "Player 2" and each have $500 to bet on a game of Connect 4. Once an indivudial wins their bet is doubled and added to the wallet.
