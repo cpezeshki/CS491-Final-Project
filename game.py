@@ -87,6 +87,7 @@ class Game(object):
 
 
 if __name__ == '__main__':
+    print("Change")
     board = Board(6, 5)
     player1 = Player("Player 1", 500)
     player1.setColor("R")
